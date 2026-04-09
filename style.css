@@ -62,5 +62,9 @@ border: 1px solid rgb(223, 211, 51);}
     flex-direction: column;
 row-gap: 20px;}
 .im4{display: none;}
-    
+    .grid{
+        grid-template-columns: repeat(1,96%);
+        grid-template-rows: repeat(4);
+        gap: 20px;
+    }
 }
