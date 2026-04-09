@@ -29,6 +29,24 @@ display: flex;
 justify-content: center;
 margin-top: 50px;}
 
+.grid{display: grid;
+grid-template-columns: repeat(4,300px);
+justify-content: space-evenly;
+margin-top: 30px;}
+
+.item{
+    p{color: gray;}
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.bnt{padding: 10px;
+    font-size: 16px;
+border-radius: 10px;
+border: 1px solid rgb(223, 211, 51);}
+.col{background-color: rgb(223, 211, 51);}
+
+
 
 
 
